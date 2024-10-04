@@ -8,6 +8,6 @@ git clone https://github.com/Mohanad014/Grade_Recognition
  
 --> Install the requirements:
 ```bash 
-pip install -r requirements.txt
+pip install -r requirements.txt 
 
 ```
