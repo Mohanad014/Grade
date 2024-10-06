@@ -3,7 +3,7 @@
 --> Clone the repository using the command below:
 ```bash
 git clone https://github.com/Mohanad014/Grade_Recognition
- 
+  
 ``` 
  
 --> Install the requirements:
