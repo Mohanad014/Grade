@@ -16,7 +16,7 @@ text = pytesseract.image_to_string(gray)
 
 # Split the text into lines
 lines = text.splitlines()
-#print(lines)
+#print(lines) 
 
 # Define regular expression patterns
 subject_score_pattern = r"(\w+)\s+([0-9]+)"
