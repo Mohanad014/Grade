@@ -10,4 +10,4 @@ git clone https://github.com/Mohanad014/Grade_Recognition
 ```bash  
 pip install -r requirements.txt 
 
-```
+``` 
