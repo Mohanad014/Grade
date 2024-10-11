@@ -14,7 +14,7 @@ gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 # Use Tesseract to do OCR on the image
 text = pytesseract.image_to_string(gray)
 
-# Split the text into lines
+# Split the text into lines 
 lines = text.splitlines()
 #print(lines) 
 
