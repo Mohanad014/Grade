@@ -6,7 +6,7 @@ import re
 pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
  
 # Load the image  
-image = cv2.imread('10th_grade_sheet.jpg')
+image = cv2.imread('10th_grade_sheet.jpg') 
  
 # Convert the image to grayscale  
 gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY) 
