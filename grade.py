@@ -9,7 +9,7 @@ pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tessera
 image = cv2.imread('10th_grade_sheet.jpg')
  
 # Convert the image to grayscale  
-gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
+gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY) 
  
 # Use Tesseract to do OCR on the image
 text = pytesseract.image_to_string(gray)
